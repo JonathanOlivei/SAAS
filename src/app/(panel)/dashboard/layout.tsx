@@ -1,12 +1,15 @@
+import { Sidebar } from "lucide-react";
 import { Children } from "react";
+import { SidebarDashboard } from "./_components/sidebar";
 
 export default function DashboardLayout({
   chilren,
 }: {
   chilren: React.ReactNode;
 }) {
-    return(<>
-        <h1 className="font-bold">SIDEBAR TESTE DO LAYOUT</h1>
-        {chilren}
-    </>)
+  return (
+    <>
+      <SidebarDashboard>{chilren}</SidebarDashboard>
+    </>
+  );
 }
