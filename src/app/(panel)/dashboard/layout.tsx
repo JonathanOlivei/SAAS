@@ -1,15 +1,13 @@
-import { Sidebar } from "lucide-react";
-import { Children } from "react";
 import { SidebarDashboard } from "./_components/sidebar";
 
 export default function DashboardLayout({
-  chilren,
+  children,
 }: {
-  chilren: React.ReactNode;
+  children: React.ReactNode;
 }) {
   return (
     <>
-      <SidebarDashboard>{chilren}</SidebarDashboard>
+      <SidebarDashboard>{children}</SidebarDashboard>
     </>
   );
 }

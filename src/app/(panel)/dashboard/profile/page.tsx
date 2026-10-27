@@ -1,3 +1,4 @@
+export const instant = false;
 export default function Profile() {
   return (
     <div>
